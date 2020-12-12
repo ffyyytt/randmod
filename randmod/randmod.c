@@ -72,7 +72,7 @@ static int __init init_randmod(void)
 		unregister_chrdev_region(first, 1);
 		return -1;
 	}
-	if (device_create(cl, NULL, first, NULL, "mynull") == NULL)
+	if (device_create(cl, NULL, first, NULL, "randmod") == NULL)
 	{
 		class_destroy(cl);
 		unregister_chrdev_region(first, 1);
