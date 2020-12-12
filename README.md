@@ -10,7 +10,9 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   3. Gõ lệnh `make` hoặc `make all`. Tiến trình sẽ dựa vào Makefile và Kbuild để biên dịch mã nguồn, tạo ra kernel module.
   4. Gõ lệnh `modinfo randmod.ko` để xem thông tin của module.
   5. Gõ lệnh `sudo insmod randmod.ko` để lắp module này vào kernel.
-  6. Gõ lệnh `dmesg` để theo dõi quá trình hoạt động của module
+  6. Gõ lệnh `dmesg` để theo dõi quá trình hoạt động của module.
   7. Gõ lệnh `lsmod | grep randmod` để xem module đã được lắp hay chưa.
-  8. Để test module ta có thể: `sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C` <br/>
-     Hoặc dùng file test với lệnh: `make testmod; ./testmod`
+  8. Để test module ta có thể: `sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C`. <br/>
+     Hoặc dùng file test với lệnh: `make testmod; ./testmod`.
+  9. Để gỡ module này, gõ lệnh `sudo rmmod randmod`.
+  10. Để dọn sạch các file được tạo ra trong quá trình biên dịch, gõ lệnh `make clean`.
