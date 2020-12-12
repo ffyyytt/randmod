@@ -1,1 +1,3 @@
-# randmod ![license]
+# randmod 
+
+# Nội dung đồ án
