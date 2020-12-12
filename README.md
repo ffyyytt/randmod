@@ -16,3 +16,5 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
      Hoặc dùng file test với lệnh: `make testmod; ./testmod`.
   9. Để gỡ module này, gõ lệnh `sudo rmmod randmod`.
   10. Để dọn sạch các file được tạo ra trong quá trình biên dịch, gõ lệnh `make clean`.
+  ### Minh hoạ
+  ![Ảnh minh hoạ](https://raw.githubusercontent.com/ffyyytt/randmod/main/demo.png?token=AKMAGSDPFMKYJN5TF56EYOK72SWXK)
