@@ -16,7 +16,7 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   ```
   sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C 
   ```
-  Hoặc dùng file test với lệnh
+    Hoặc dùng file test với lệnh
   ```
   make testmod; ./testmod
   ```
