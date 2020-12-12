@@ -6,4 +6,6 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   + Module này sẽ tạo một character device để cho phép các tiến trình ở userspace có thể open và read các số ngẫu nhiên.
   ### Sử dụng
   1. Mở Terminal `Ctrl` + `Alt` + `T`.
-  2. Dùng lệnh `cd` để đi tới thư mục chứa mã nguồn. (vd: 'cd Desktop/DA2')
+  2. Dùng lệnh `cd` để đi tới thư mục chứa mã nguồn. (vd: `cd Desktop/DA2`)
+  3. Gõ lệnh `make` hoặc `make all`.
+  4. 
