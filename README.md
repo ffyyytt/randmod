@@ -12,7 +12,7 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   5. Gõ lệnh `sudo insmod randmod.ko` để lắp module này vào kernel.
   6. Gõ lệnh `dmesg` để theo dõi quá trình hoạt động của module
   7. Gõ lệnh `lsmod | grep randmod` để xem module đã được lắp hay chưa.
-  8. Để test module ta có thể:
+  8. Để test module ta có thể:<br />
          ```
              sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C 
          ```
