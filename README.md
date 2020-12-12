@@ -13,10 +13,10 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   6. Gõ lệnh `dmesg` để theo dõi quá trình hoạt động của module
   7. Gõ lệnh `lsmod | grep randmod` để xem module đã được lắp hay chưa.
   8. Để test module ta có thể:
-  ```
-  sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C 
-  ```
+         ```
+             sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C 
+         ```
     Hoặc dùng file test với lệnh
-  ```
-  make testmod; ./testmod
-  ```
+         ```
+              make testmod; ./testmod
+         ```
