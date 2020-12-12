@@ -15,8 +15,8 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   8. Để test module ta có thể:<br />
          ```
              sudo dd if=/dev/randmod bs=4 count=1 | hexdump -C 
-         ```
-    Hoặc dùng file test với lệnh
+         ```<br />
+    Hoặc dùng file test với lệnh<br />
          ```
               make testmod; ./testmod
          ```
