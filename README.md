@@ -7,5 +7,9 @@ Mục tiêu hiểu về Linux kernel module và hệ thống quản lý file và
   ### Sử dụng
   1. Mở Terminal `Ctrl` + `Alt` + `T`.
   2. Dùng lệnh `cd` để đi tới thư mục chứa mã nguồn. (vd: `cd Desktop/DA2`)
-  3. Gõ lệnh `make` hoặc `make all`.
-  4. 
+  3. Gõ lệnh `make` hoặc `make all`. Tiến trình sẽ dựa vào Makefile và Kbuild để biên dịch mã nguồn, tạo ra kernel module.
+  4. Gõ lệnh `modinfo randmod.ko` để xem thông tin của module.
+  5. Gõ lệnh `sudo insmod randmod.ko` để lắp module này vào kernel.
+  6. Gõ lệnh `dmesg` để theo dõi quá trình hoạt động của module
+  7. Gõ lệnh `lsmod | grep randmod` để xem module đã được lắp hay chưa.
+  8. Gõ lệnh 
